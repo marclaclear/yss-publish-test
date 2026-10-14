@@ -1,6 +1,6 @@
 ---
 layout: default
-title: YSS live test 2026-10-14T17-06-33-373Z about
+title: About the YSS publish test
 permalink: /about/
 ---
 # About
