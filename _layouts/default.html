@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+<title>{{ page.title }}</title>
+</head>
+<body>
+<nav><a href="{{ '/' | relative_url }}">Home</a> · <a href="{{ '/about/' | relative_url }}">About</a> · <a href="{{ '/services/' | relative_url }}">Services</a> · <a href="{{ '/plain/' | relative_url }}">Plain</a></nav>
+<main>{{ content }}</main>
+</body>
+</html>
